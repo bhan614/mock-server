@@ -1,0 +1,25 @@
+{
+	"restartable": "rs",
+	"ignore": [
+		".gitignore",
+		"README.md",
+		"CHANGELOG.md",
+		"nodemon.json",
+		"webpack*",
+		"node_modules/*",
+		"bin/*",
+		"client/*",
+		"public/*",
+		"uploads"
+	],
+	"verbose": true,
+	"execMap": {
+		"js": "babel-node --harmony"
+	},
+	"watch": "*",
+	"env": {
+		"NODE_ENV": "development",
+		"appName": "mock-server"
+	},
+	"ext": "js json"
+}

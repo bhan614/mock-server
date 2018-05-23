@@ -1,0 +1,15 @@
+{
+	"apps": [{
+		"name": "www",
+		"script": "bin/www",
+		"watch": true,
+		"ignore_watch": ["[\/\\]\\./", "node_modules", "client", "bin","public","package.json"],
+		"env": {
+		      "NODE_ENV": "product",
+		      "ID": "22",
+		      "PORT": "8080"
+	      },
+	      "merge_logs": true,
+		"log_date_format": "YYYY - MM - DD HH: mm Z",
+	}]
+}
